@@ -1,32 +1,5 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
+int layer = m.GetInt(0); // The layer identifier.
+int x = m.GetInt(1); // The x coordinate of the block's position.
+int y = m.GetInt(2); // The y coordinate of the block's position.
+int bid = m.GetInt(3); // The block identifier.
+int PlayerId = m.GetInt(4); // The Player Identifer.
